@@ -10,5 +10,6 @@
 
 environment_info <- function(msg) {
   print(devtools::session_info())
+
   print(paste("Print", msg))
 }
